@@ -1,0 +1,21 @@
+
+img{
+    height: 300px;
+    width: 350px;
+}
+button{
+    padding: 15px 10px;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.product{
+    padding: 10px 10px 10px 10px;
+    border: 2px;
+    align-content: center;
+}
+        
+.buttons{
+    align-content: center;
+}
