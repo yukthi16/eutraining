@@ -1,21 +1,49 @@
-
 img{
     height: 300px;
     width: 350px;
 }
 button{
-    padding: 15px 10px;
+    padding: 10px 10px;
     border: none;
     color: white;
     font-weight: 500;
-    margin-left: 10px;
+}
+.thumbnail-list{
+    display: flex;
+    align-items: left;
+}
+.thumbnail-list img{
+    height: 100px;
+    width: 100px;
+}
+#image{
+    padding: 8px 8px 8px 8px;
+    border: 2px solid rgb(215, 215, 215);
+    background-color: white;
+}
+#addtocart{
+    background-color: orange;
+}
+#buynow{
+    background-color: orangered;
 }
 .product{
-    padding: 10px 10px 10px 10px;
-    border: 2px;
-    align-content: center;
+    display: block;
+    padding: 2px 2px 2px 2px;
+    border: 2px solid rgb(215, 215, 215);
+    text-align: center;
+    background-color: gainsboro;
+}  
+.custom-button{
+    height: 50px;
+    width: 152px;
+    font-size: large;
+    font-weight: 500;
+    text-align: center;
 }
-        
-.buttons{
-    align-content: center;
+.button-grp{
+    align-items: center;
+}
+.image-nav{
+    display: flex;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flipkart</title>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="flipkart.css">
     <script>
         function addtocart(){
@@ -13,12 +13,39 @@
     </script>
 </head>
 <body>
-    <div class="product">
-        <img src="https://skybags.co.in/cdn/shop/files/SkybagsTRIBE03.png?v=1705671302" alt="">
-        <div class="buttons">
-            <button id="addtocart" onclick="addtocart()">Add to cart</button>
-            <button id="buynow">Buy now</button>
+    <div class="product"> 
+        <div class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://skybags.co.in/cdn/shop/files/SkybagsTRIBE03.png?v=1705671302" id="image" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/I/61OxURx53KL._AC_UL600_SR600,600_.jpg" id="image" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://skybags.co.in/cdn/shop/files/1_1800x1800_ae2bf6ec-0912-4cbb-a261-ea53e34ff86f_1080x.png?v=1740663244" class="d-block center" id="image" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev"> 
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next"> 
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span> 
+            </button>
         </div>
-    </div>
+        
+        <!-- <div class="image-nav">
+        <button onclick="prev()"> < </button>
+        <img src="https://skybags.co.in/cdn/shop/files/SkybagsTRIBE03.png?v=1705671302" id="image" alt="">
+        <button onclick="next()"> > </button>
+        </div> -->
+        <div class="button-grp">
+            <button class="custom-button" id="addtocart" onclick="addtocart()">ADD TO CART</button>
+            <button class="custom-button" id="buynow">BUY NOW</button>
+        </div>
+    </div> 
+    <script src="./change_color.js"></script>
 </body>
 </html>
