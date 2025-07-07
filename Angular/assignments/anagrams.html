@@ -1,0 +1,19 @@
+<script>
+    let s1='listen';
+    let s2='silent';
+    let res=true;
+    if(s1.length==s2.length){
+        for(ch of s1){
+            if(!(s2.includes(ch) && s1.includes(ch))){
+                res=false;
+            }
+        }
+    }
+    if(res){
+        console.log(s1+" and "+s2+" are anagrams");
+    }
+    else{
+        console.log(s1+" and "+s2+" are not anagrams");
+    }
+
+</script>

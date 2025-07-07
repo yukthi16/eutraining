@@ -1,0 +1,9 @@
+<script>
+    let input='1111222233334444';
+    let output='';
+    for(var i=0;i<input.length-4;i=i+4){
+        output+=input.substring(i,i+4)+'-';
+    }
+    output+=input.slice(-4);
+    console.log(output);
+</script>

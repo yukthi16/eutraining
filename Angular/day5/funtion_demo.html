@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<body>
+    <script>
+        function add(a,b){
+            return a+b;
+        }
+        console.log(add(10,20));
+        (function(a,b){
+            console.log(b-a);
+        })(10,20);
+
+        var div= function(a,b){
+            console.log(b/a);
+        }
+        div(10,20);
+        var prod= (a,b) => {a*b};
+        console.log(prod);
+
+
+    </script>
+</body>
+</html>

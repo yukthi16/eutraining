@@ -1,0 +1,6 @@
+<script>
+    let input='hello@#hi';
+    let res=input.match(/[a-zA-Z]/g).join('');
+    res+=input.match(/[^a-zA-Z\s]/g).join('');
+    console.log(res);
+</script>

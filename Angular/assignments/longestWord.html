@@ -1,0 +1,13 @@
+<script>
+    let input='this is javascript class';
+    let words=input.split(' ');
+    let res=0;
+    let output='';
+    for(var i=0;i<words.length;i++){
+        if(res<words[i].length){
+            res=words[i].length;
+            output=words[i];
+        }
+    }
+    console.log(output);
+</script>
